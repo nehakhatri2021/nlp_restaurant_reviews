@@ -71,7 +71,7 @@ def review(text):
     
   return result
 html_temp = """
-   <div class="" style="background-color:blue;" >
+   <div class="" style="background-color:Coral;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
@@ -82,7 +82,7 @@ html_temp = """
    </div>
    """
 st.markdown(html_temp,unsafe_allow_html=True)
-st.header("Restaurant Review System ")
+st.header("Restaurant Review Analysis ")
   
   
 text = st.text_area("Writre Review of Restaurant")
@@ -92,10 +92,10 @@ if st.button("Review Analysis"):
   st.success('Model has predicted {}'.format(result))
       
 if st.button("About"):
-  st.subheader("Developed by Jayendra sharma")
-  st.subheader("Student , Department of Computer Engineering")
+  st.subheader("Developed by Neha Khatri")
+  st.subheader("Student, Department of Computer Engineering")
 html_temp = """
-   <div class="" style="background-color:orange;" >
+   <div class="" style="background-color:LightGray;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:20px;color:white;margin-top:10px;">Summer Internship 2022 Project Deployment</p></center> 
